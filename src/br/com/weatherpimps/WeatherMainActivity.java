@@ -5,9 +5,10 @@ import android.app.Activity;
 import android.view.Menu;
 
 public class WeatherMainActivity extends Activity {
+	
 	private static final String WEATHER_API = "api.openweathermap.org/data/2.5/weather?q=";
-
-	@Override
+	
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather_main);

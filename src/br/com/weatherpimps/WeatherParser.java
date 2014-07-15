@@ -23,29 +23,29 @@ public class WeatherParser extends AsyncTask<URI, Void, Void> {
 		 HttpGet httpGet = new HttpGet(urls[0]);
 		 StringBuilder builder = new StringBuilder();
 		 try {
-			HttpResponse response = httpclient.execute(httpGet);
-			StatusLine statusLine = response.getStatusLine();
-            int statusCode = statusLine.getStatusCode();
-            if (statusCode == 200) {
-                    HttpEntity entity = response.getEntity();
-                    InputStream content = entity.getContent();
-                    BufferedReader reader = new BufferedReader(
+                 HttpResponse response = httpclient.execute(httpGet);
+                 StatusLine statusLine = response.getStatusLine();
+                 int statusCode = statusLine.getStatusCode();
+                 if (statusCode == 200) {
+                     HttpEntity entity = response.getEntity();
+                     InputStream content = entity.getContent();
+                     BufferedReader reader = new BufferedReader(
                                     new InputStreamReader(content));
-                    String line;
-                    while ((line = reader.readLine()) != null) {
+                     String line;
+                     while ((line = reader.readLine()) != null) {
                             builder.append(line);
-                    }
-                    Log.v("Getter", "Your data: " + builder.toString()); //response data
-            } else {
-                    Log.e("Getter", "Failed to download file");
-            }
-		} catch (ClientProtocolException e) {
+                     }
+                     Log.v("Getter", "Your data: " + builder.toString()); //response data
+                  } else {
+                      Log.e("Getter", "Failed to download file");
+                  }
+		  } catch (ClientProtocolException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
+		     e.printStackTrace();
+		  } catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return null;
+		      e.printStackTrace();
+		  }
+		  return null;
 	 }
 }
