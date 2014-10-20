@@ -4,7 +4,6 @@ opyright: Benjamin Weiss (keyboardsurfer) https://github.com/keyboardsurfer
 # built application files
 *.apk
 *.ap_
-*.jar
 !gradle/wrapper/gradle-wrapper.jar
 
 # lint folder
@@ -20,25 +19,24 @@ lint
 bin/
 gen/
 classes/
-gen-external-apklibs/
 
 # maven output folder
 target
 
 # Local configuration file (sdk path, etc)
 local.properties
-project.properties
-proguard-project.txt
+#project.properties
+#proguard-project.txt
 
 # Eclipse project files
-.classpath
-.project
+#.classpath
+#.project
 .metadata
-.settings
+#.settings
 
 # IntelliJ files
-.idea
-*.iml
+#.idea
+#*.iml
 
 # OSX files
 .DS_Store
@@ -53,8 +51,8 @@ Thumbs.db
 *.bak
 
 # gradle directory
-.gradle
-build/
+#.gradle
+#build/
 
 #for oh-my-zsh jira plugin (https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#jira)
 .jira-url

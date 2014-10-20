@@ -21,4 +21,26 @@
     <item name="bluegrey_500" type="color">#ff607d8b</item>
     <item name="white" type="color">#ffffffff</item>
     <item name="black" type="color">#ff000000</item>
+
+    <array name="test_colors">
+        <item>@color/red_500</item>
+        <item>@color/pink_500</item>
+        <item>@color/purple_500</item>
+        <item>@color/deeppurple_500</item>
+        <item>@color/indigo_500</item>
+        <item>@color/blue_500</item>
+        <item>@color/lightblue_500</item>
+        <item>@color/cyan_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+        <item>@color/lightgreen_500</item>
+        <item>@color/lime_500</item>
+        <item>@color/yellow_500</item>
+        <item>@color/amber_500</item>
+        <item>@color/orange_500</item>
+        <item>@color/deeporange_500</item>
+        <item>@color/brown_500</item>
+        <item>@color/grey_500</item>
+        <item>@color/bluegrey_500</item>
+    </array>
 </resources>

@@ -20,7 +20,7 @@
             android:text="Tira as\ngalinhas\nda rua\nque vai"
             android:textColor="#000000"
             android:textSize="56sp"
-            fontify:font="@string/ROBOTO_BOLD" />
+            fontify:font="@string/ROBOTO_THIN" />
 
         <com.danh32.fontify.TextView
             android:id="@+id/txtColored"
@@ -31,7 +31,7 @@
             android:text="chover"
             android:textColor="#ffffff"
             android:textSize="56sp"
-            fontify:font="@string/ROBOTO_BOLD" />
+            fontify:font="@string/ROBOTO_LIGHT" />
     </LinearLayout>
 
     <ImageView

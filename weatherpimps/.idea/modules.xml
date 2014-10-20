@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../fontify/fontify.iml" filepath="$PROJECT_DIR$/../fontify/fontify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weatherpimps.iml" filepath="$PROJECT_DIR$/weatherpimps.iml" />
+    </modules>
+  </component>
+</project>
+
